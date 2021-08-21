@@ -17,12 +17,11 @@ body{
 }
 img{
    display: flex;
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     padding: 5px;
 }
 h1{
     text-align: center;
     color: rgb(0, 0, 0);
-    font-family: 'Dancing Script', cursive;
 }
