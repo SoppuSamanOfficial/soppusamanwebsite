@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background: rgb(253, 253, 253);
+}
+.img{
+    display: flex;
+    padding: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+img{
+   display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+}

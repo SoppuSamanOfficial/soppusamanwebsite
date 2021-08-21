@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(208, 211, 210);
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: rgb(240, 224, 9);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar .subscribe{
+    display: flex;
+    width: 90px;
+    height: 40px;
+    background: red;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    
+}
+.navbar .subscribe:hover{
+    display: flex;
+    width: 95px;
+    height: 45px;
+    background: rgb(155, 150, 150);
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.navbar img{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+.navbar h1{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+ul{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: rgb(0, 0, 0);
+    bottom: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    text-align: center;
+    float: none;
+    display: block;
+    text-decoration: none;
+    zoom: 1;
+    flex-direction: space;
+}
+ul li img{
+    height: 60px;
+    width: 60px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 0 30px;
+    display: block;
+}
+ul li a i{
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto 5px;
+}
+ul li a .icon{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 50px;
+    /* transition: 0.5%; */
+    color: white;
+    text-align: center;
+}
+ul li a .icon :hover{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background: rgb(240, 224, 9);
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+.container img{
+    width: 400px;
+    height: 340px;
+}
+iframe{
+    width: 100%;
+    height: 200px
+}
